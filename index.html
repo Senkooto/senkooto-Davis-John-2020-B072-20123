@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sheiler Pink - Sustainable Lifestyle Influencer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -56,43 +58,109 @@
         }
 
         .social-icons img {
-            width: 20px; /* Adjust the width as needed */
-            height: 20px; /* Adjust the height as needed */
-            border-radius: 8px; /* Adjust the border-radius as needed */
+            width: 20px;
+            /* Adjust the width as needed */
+            height: 20px;
+            /* Adjust the height as needed */
+            border-radius: 8px;
+            /* Adjust the border-radius as needed */
         }
     </style>
 </head>
 
 <body>
-
-    <header>
-        <h1>Sheiler Pink</h1>
-    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sheiler Pink</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fashion</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Lifestyle
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Wellness</a></li>
+                            <li><a class="dropdown-item" href="#">Travel</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Inspiration</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Shop</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
     <section>
         <img src="sheila.jpeg" alt="Sheiler Pink" class="profile-image">
-        <h3>About Me</h3>
-        <p>Are you passionate about fashion and committed to
-            living a sustainable life? Join me as I explore remarkable fashion choices and promote a more
-            sustainable lifestyle.</p>
+        <h2>Welcome to Sheiler Pink's Sustainable Lifestyle World!</h2>
+        <p>
+            Explore the intersection of fashion and sustainability with Sheiler Pink. Join her on a journey to discover
+            remarkable fashion choices and embrace a more sustainable lifestyle.
+        </p>
 
         <section>
-            <h3>Follow Me</h3>
-    
+            <h3>Latest Fashion Picks</h3>
+            <p>Check out Sheiler's latest fashion picks that combine style and sustainability.</p>
+            <div class="container mt-5">
+                <h2 class="text-center">Image Gallery</h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <img src="./sheila 2.jpeg" alt="Image 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <img src="./sheila 4.jpeg" alt="Image 2" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <img src="./sheila3.jpeg" alt="Image 3" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <img src="./sheila.jpeg" alt="Image 4" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3>Follow Me on Social Media</h3>
             <div class="social-icons">
                 <a href="https://www.instagram.com/sheilaPink" target="_blank">
-                    <img src="instagram.jpeg" alt="Instagram Logo"> Follow me on Instagram @sheilaPin
+                    <img src="instagram.jpeg" alt="Instagram Logo"> @sheilaPink
                 </a>
                 <a href="https://www.facebook.com/SheilaPink" target="_blank">
-                    <img src="facebook.jpeg" alt="Facebook Logo"> Follow me on Facebook @sheilaPink
+                    <img src="facebook.jpeg" alt="Facebook Logo"> @sheilaPink
                 </a>
                 <a href="https://twitter.com/sheilaPink" target="_blank">
-                    <img src="twitter.jpeg" alt="Twitter Logo"> Follow me on Twitter @sheilaPink
+                    <img src="twitter.jpeg" alt="Twitter Logo"> @sheilaPink
                 </a>
                 <!-- Add more social media links as needed -->
             </div>
         </section>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <!-- Add your additional JavaScript interactions here -->
+    </section>
 </body>
 
 </html>
